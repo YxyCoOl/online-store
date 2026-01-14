@@ -27,6 +27,7 @@ mvn spring-boot:run
 ```
 
 update
+another update
 
 项目结构：
 - `src/main/java/com/example/onlinestore` — 应用入口和控制器/仓库/模型
