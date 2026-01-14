@@ -28,9 +28,11 @@ mvn spring-boot:run
 
 update
 another update
+etra update
 
 项目结构：
 - `src/main/java/com/example/onlinestore` — 应用入口和控制器/仓库/模型
 - `src/main/resources/application.properties` — 配置
 
 如果你希望我为该项目添加更多示例（例如数据库集成、Swagger 文档或更完整的测试），告诉我下一步的方向。
+
