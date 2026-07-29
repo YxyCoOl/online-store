@@ -1,0 +1,13 @@
+title: Ignore ProductController RuntimeException catch style
+rule: >-
+  In online-store, do not report the ProductController.get() method's catch of
+  RuntimeException as an issue. The user has explicitly asked Kody not to flag
+  this pattern again; it is intentionally accepted in this codebase/PR context.
+  If reviewing ProductController.java, skip suggestions about catching
+  NoSuchElementException specifically instead of RuntimeException.
+severity: medium
+examples: []
+inheritance:
+  inheritable: true
+  exclude: []
+  include: []
